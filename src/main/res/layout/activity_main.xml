@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bubbleSortLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/newSetOfDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:onClick="NewSetOfData"
+        android:text="@string/new_set_of_data_button_text" />
+
+    <Button
+        android:id="@+id/sortButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="Sort"
+        android:text="@string/sort_button_text" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="300dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_1_text"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_2_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_3_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView3"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_4_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView4"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_5_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView5"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_6_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView6"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_7_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView7"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_8_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView8"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_9_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView9"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_10_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView10"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_11_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView11"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_12_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView12"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_13_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView13"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_14_text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView14"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.3"
+        android:text="@string/text_view_15_text"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sortButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="Pause"
+        android:text="@string/pause_button_text" />
+
+    <Button
+        android:id="@+id/resumeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sortButton"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@+id/pauseButton"
+        android:onClick="Resume"
+        android:text="@string/resume_button_text" />
+
+</RelativeLayout>

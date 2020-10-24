@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BubbleSort</string>
+    <string name="new_set_of_data_button_text">new set of data</string>
+    <string name="sort_button_text">sort</string>
+    <string name="text_view_1_text">int temp;</string>
+    <string name="text_view_2_text">boolean swapped;</string>
+    <string name="text_view_3_text"><![CDATA[for (int i = 0; i < arr.length - 1; i++) {]]></string>
+    <string name="text_view_4_text">swapped = false;</string>
+    <string name="text_view_5_text"><![CDATA[for (int j = 0; j < arr.length - i - 1; j++) {]]></string>
+    <string name="text_view_6_text"><![CDATA[if (arr[j] > arr[j + 1]) {]]></string>
+    <string name="text_view_7_text">temp = arr[j];</string>
+    <string name="text_view_8_text">arr[j] = arr[j + 1];</string>
+    <string name="text_view_13_text">if (swapped == false)</string>
+    <string name="text_view_15_text">}</string>
+    <string name="text_view_10_text">swapped = true;</string>
+    <string name="text_view_9_text">arr[j + 1] = temp;</string>
+    <string name="text_view_14_text">break;</string>
+    <string name="text_view_12_text">}</string>
+    <string name="text_view_11_text">}</string>
+    <string name="pause_button_text">pause</string>
+    <string name="resume_button_text">resume</string>
+</resources>
